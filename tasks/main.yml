@@ -16,8 +16,3 @@
     state: present
     enabled: yes
     profiles: 'domain,public,private'
-
-- name: Create Temp Folder
-  win_file:
-    path: "{{ ansible_path_temp }}"
-    state: directory

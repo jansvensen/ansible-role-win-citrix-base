@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - citrix-base
+    - ansible-role-win-citrix-base
